@@ -19,7 +19,7 @@ This project also requires the following Python libraries:
 
 ## Installation
 
-1. Clone this repository to your local machine using `https://github.com/<username>/<repository-name>.git`
+1. Clone this repository to your local machine using `https://github.com/gbengaayelab/Real-Estate-Price-Prediction-Project.git`
 2. Install the required Python libraries by running the following command: `pip install pandas scikit-learn matplotlib`
 
 
