@@ -22,6 +22,30 @@ This project also requires the following Python libraries:
 1. Clone this repository to your local machine using `https://github.com/<username>/<repository-name>.git`
 2. Install the required Python libraries by running the following command: `pip install pandas scikit-learn matplotlib`
 
+
+Sure, here's the updated metadata section with the additional notes:
+
+## Metadata
+
+The dataset used in this project contains information about various houses including their prices and features. The dataset has a total of 545 entries with 13 columns. The columns are as follows:
+
+- **price:** Price of the house (in millions)
+- **area:** Area of the house (in square feet)
+- **bedrooms:** Number of bedrooms
+- **bathrooms:** Number of bathrooms
+- **stories:** Number of stories
+- **mainroad:** Type of road leading to the house (yes/no)
+- **guestroom:** Presence of guest room (yes/no)
+- **basement:** Presence of basement (yes/no)
+- **hotwaterheating:** Provision for hot water heating (yes/no)
+- **airconditioning:** Presence of air conditioning (yes/no)
+- **parking:** Number of parking spots
+- **prefarea:** Preferred location (yes/no)
+- **furnishingstatus:** Furnishing status of the house (unfurnished = 0, semi-furnished = 1, furnished = 2)
+
+Please note that the `furnishingstatus` column has been encoded as follows: `0` indicates `unfurnished`, `1` indicates `semi-furnished`, and `2` indicates `furnished`. When using this dataset to build a predictive model, it is important to keep this in mind.
+
+
 ## Usage
 
 1. Load the dataset: 
